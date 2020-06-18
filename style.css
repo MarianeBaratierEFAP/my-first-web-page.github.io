@@ -2,13 +2,16 @@ h1{
 	color: pink;
 	font-size: 32px;
 	background: grey;
-	font-family: arial;
+	font-family:'Piedra', cursive;
+  text-align: center;
+  text-decoration: underline;
 }
 
 h2, h3, h4 {
-font-size: 28px;
+font-size: 20px;
 background: grey;
 font-family: arial;
+text-align: center;
 
 } 
 
@@ -20,7 +23,7 @@ p, ul, ol  {
 body {
 	background: grey;
 	font-family: arial;
-
+text-align: center;
 } 
 
 h1 {
@@ -31,6 +34,13 @@ h1 {
 h2, h3 {
 	font-size: 28px;
 }
+
+h6 {
+  font-size: 30px;
+  height: 40px
+  width: 40px;
+  text-decoration: underline;
+ } 
 
 body {
 	background: grey;
@@ -95,7 +105,7 @@ line-transparent {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background: pink;
 }
